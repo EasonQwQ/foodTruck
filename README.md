@@ -43,4 +43,5 @@ To get started with the Food Truck API, clone this repository to your local mach
 git clone https://github.com/EasonQwQ/foodTruck
 cd foodTruck
 npm install
+npm run start
 ```

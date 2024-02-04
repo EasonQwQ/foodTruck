@@ -8,7 +8,6 @@ import { AllExceptionsFilter } from './filter/any-exception.filter';
 import { TransformInterceptor } from './filter/transformInterceptor';
 import { AuthGuard } from './auth/auth/auth.guard';
 import { AuthModule } from './auth/auth.module';
-import { CommonModule } from './common/common.module';
 import { FoodTruckModule } from './food-truck/food-truck.module';
 @Module({
   imports: [
@@ -26,7 +25,6 @@ import { FoodTruckModule } from './food-truck/food-truck.module';
       synchronize: true,
     }),
     AuthModule,
-    CommonModule,
     FoodTruckModule,
   ],
   providers: [
