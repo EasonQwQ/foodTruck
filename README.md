@@ -15,7 +15,9 @@ Before you begin, ensure you have met the following requirements:
 
 The Food Truck API provides a robust set of endpoints for managing food trucks and their associated data. It allows users to create, read, update, and delete food truck records, as well as manage menus, locations, and schedules.
 
+## Swagger Documentation
 
+You can explore the API documentation using Swagger UI at [http://api.aitht.com:9003/API#/](http://api.aitht.com:9003/API#/).
 
 ## Environment Setup
 
